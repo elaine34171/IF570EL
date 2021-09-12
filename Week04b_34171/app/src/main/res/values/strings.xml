@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Week 04b _34171</string>
+
+    <string name="name">Elaine</string>
+    <string name="p1">Halaman 1</string>
+    <string name="p2">Halaman 2</string>
+
+    <string name="writings">Tulisan</string>
+    <string name="changeWritings">Ganti Tulisan</string>
+
+    <string name="initial">initial TextView</string>
+
+    <string name="secondAct">Second Activity</string>
+    <string name="thirdAct">Third Activity</string>
+</resources>

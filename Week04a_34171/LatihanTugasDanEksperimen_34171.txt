@@ -1,0 +1,4 @@
+2.  Sebagai kesimpulan, melalui implicit intent,
+    dua activity yang berbeda dapat saling mengirimkan data,
+    di mana pada aplikasi yang dibuat, data yang dimaksud, yaitu
+    pesan yang dikirim berbalas-balasan antara kedua activity.

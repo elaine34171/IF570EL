@@ -1,0 +1,45 @@
+2.  Berdasarkan pengujian terhadap app
+    dengan skenario-skenario tersebut,
+    pengosongan salah satu atau kedua input
+    dapat mengakibatkan error berupa
+    java.lang.NumberFormatException: empty String.
+    
+    Penyebab terjadinya error tersebut, yaitu
+    karena string yang hendak diparse ke number
+    bukan merupakan string numerik.
+    Dalam kasus ini, string tidak memiliki nilai.
+
+    Langkah-langkah yang dapat memperbaiki error
+    pada skenario-skenario tersebut, yaitu
+    dengan melakukan pengujian terhadap angka1 dan angka2
+    untuk menentukan apabila angka1 dan angka2
+    memiliki suatu nilai atau tidak
+    sebelum melakukan parse string ke double.
+    Apabila angka1 atau angka2 tidak memiliki nilai
+    atau belum dimasukkan nilainya oleh pengguna,
+    program akan memberikan warning.
+    
+    Baris kode yang dapat digunakan:
+    if(TextUtils.isEmpty(angka1) || TextUtils.isEmpty(angka2)) {
+        Toast.makeText(this, "Angka tidak boleh kosong!", Toast.LENGTH_SHORT).show();
+        return;
+    }
+
+
+3.  Kesimpulan dari hasil debugging yang dilakukan, yaitu
+    diketahui bahwa:
+
+    Dengan menggunakan step-over, debugger akan menjalankan
+    baris di mana ia berhenti lalu menuju baris berikutnya
+    dan berhenti sementara juga.
+
+    Dengan menggunakan step-into, jika pada baris
+    di mana eksekusi berhenti memanggil sebuah method,
+    debugger akan masuk ke dalam method yang dipanggil.
+
+    Dengan menggunakan step-out, debugger akan menyelesaikan
+    sampai akhir dari blok atau akhir dari method dan
+    kembali ke baris semula di mana step-into dilakukan.
+
+    Sedangkan dengan menggunakan resume, debugger akan
+    terus melanjutkan eksekusi.

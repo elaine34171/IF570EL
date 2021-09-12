@@ -1,0 +1,11 @@
+2.  Sebagai kesimpulan,
+
+    apabila pengguna melakukan klik pada FAB,
+    program akan menampilkan kata baru
+    yang diletakkan di paling bawah daftar
+    dengan angkanya yang telah bertambah 1 dari angka pada kata sebelumnya
+    diikuti keterangan "telah ditambahkan" di samping kata tersebut,
+
+    serta apabila pengguna melakukan klik pada salah satu kata,
+    di samping kata tersebut akan muncul keterangan "pernah diklik"
+    diikuti notifikasi sistem "dipilih".
