@@ -1,0 +1,23 @@
+2.  Sebagai kesimpulan,
+    aplikasi yang dibuat dapat digunakan untuk menggambar
+    dengan memanfaatkan beberapa tools.
+    
+    Tools yang tersedia dapat diaktifkan
+    melalui radio button yang terdiri dari
+    tool untuk membuat bentuk persegi panjang
+    dengan ukuran bebas,
+    tool untuk membuat bentuk oval dengan ukuran bebas,
+    tool untuk membuat bentuk garis lurus
+    dengan ukuran bebas, dan
+    tool untuk menggambar secara bebas sesuai sentuhan.
+
+    Selain itu, pengguna dapat menentukan warna
+    yang digunakan untuk menggambar
+    dengan menggeser value red, green, dan blue
+    secara terpisah
+    hingga mendapatkan warna yang diinginkan
+    sesuai preview warna di sisi kanan bawah.
+
+    Pengguna juga dapat menghapus keseluruhan gambar
+    yang telah dibuat
+    dengan menekan tombol silang di sisi kiri atas layar.
