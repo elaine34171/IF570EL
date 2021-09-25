@@ -1,0 +1,6 @@
+2.  Sebagai kesimpulan,
+    ketika gambar kuda pada aplikasi diklik,
+    gambar kuda tersebut akan mulai bergerak
+    atau berganti dengan cepat
+    membentuk suatu animasi kuda berlari
+    yang bersifat looping.

@@ -1,0 +1,11 @@
+2.  Sebagai kesimpulan,
+    pada aplikasi terdapat dua tombol
+    yang dapat menampilkan animasi yang berbeda
+    apabila diklik.
+
+    Tombol "Halo Spring" akan terpental ke bawah
+    kemudian tertarik ke atas kembali
+    menyerupai animasi pegas ketika diklik.
+
+    Tombol "Halo Fling" akan tampak terbalik memutari sumbu x
+    ketika diklik.

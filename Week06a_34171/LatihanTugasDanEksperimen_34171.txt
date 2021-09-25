@@ -1,0 +1,16 @@
+2.  Sebagai kesimpulan,
+    ketika aplikasi diklik di sembarang tempat,
+    pada aplikasi akan muncul lingkaran kecil berwarna hijau
+    dengan titik pusat di lokasi klik dilakukan dan
+    jari-jari lingkaran akan terus bertambah besar
+    disertai perubahan warna lingkaran menjadi biru
+    secara bertahap.
+    Setelah lingkaran mencapai ukuran tertentu,
+    lingkaran tersebut akan kembali menyusut dan
+    warnanya berubah kembali menjadi hijau secara bertahap.
+    Animasi lingkaran yang membesar dan mengecil ini
+    akan berjalan dua kali per satu klik
+    dan animasi akan dibatalkan
+    apabila pengguna melakukan klik di posisi lain
+    ataupun posisi yang sama
+    selama animasi berlangsung atau belum selesai.
