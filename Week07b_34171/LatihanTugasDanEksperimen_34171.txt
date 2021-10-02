@@ -1,0 +1,8 @@
+2.  Sebagai kesimpulan,
+    pada aplikasi ditampilkan thumbnail dan keterangan
+    dari beberapa video yang tersedia.
+    Apabila thumbnail atau keterangan video diklik,
+    aplikasi akan menampilkan jendela media controller
+    yang meliputi fitur-fitur video player,
+    seperti play, pause, jump forward, dan jump backward,
+    disertai teks keterangan atau deskripsi video.

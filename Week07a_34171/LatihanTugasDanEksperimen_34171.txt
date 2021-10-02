@@ -1,0 +1,3 @@
+2.  Sebagai kesimpulan,
+    pada aplikasi terdapat fitur yang membutuhkan akses kamera
+    untuk mengambil foto atau untuk merekam video.
