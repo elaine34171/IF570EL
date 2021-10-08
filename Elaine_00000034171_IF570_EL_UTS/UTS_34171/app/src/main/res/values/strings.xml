@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">UTS_34171</string>
+    <string name="title_name">SFX Library and Previewer</string>
+
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="library">Library</string>
+
+    <string name="my_name">Elaine</string>
+    <string name="my_student_id">00000034171</string>
+    <string name="class_code">IF570-EL</string>
+
+    <string name="references">REFERENSI</string>
+
+    <string name="ref1">
+        <a href="https://www.dicoding.com/blog/vector-drawable-android/">Dicoding: Vector Drawable Android</a>
+    </string>
+
+    <string name="ref2">
+        <a href="https://www.educative.io/edpresso/how-to-create-hyperlinks-using-android-textview">Educative: Create Hyperlinks Using Android TextView</a>
+    </string>
+
+    <string name="ref3">
+        <a href="https://guides.codepath.com/android/using-the-cardview">Codepath: Using the Cardview</a>
+    </string>
+
+    <string name="ref4">
+        <a href="https://developer.android.com/guide/topics/ui/menus.html">Android Developers: Menus</a>
+    </string>
+
+    <string name="ref5">
+        <a href="https://stackoverflow.com/questions/12147705/passing-object-as-parameter-on-button-click">Stack Overflow: Passing Object as Parameter on Button Click</a>
+    </string>
+
+    <string name="login_title">LOGIN PAGE</string>
+    <string name="name_input">Masukkan nama Anda...</string>
+    <string name="next">Next</string>
+
+    <string name="title_placeholder">Title</string>
+    <string name="category_placeholder">Category</string>
+    <string name="play_btn">Play SFX</string>
+</resources>

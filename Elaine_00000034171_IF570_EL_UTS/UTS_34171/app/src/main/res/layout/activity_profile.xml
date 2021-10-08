@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/profilePicture"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            card_view:cardCornerRadius="75dp"
+            card_view:cardElevation="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/myName"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/myPicture"
+                android:layout_height="150dp"
+                android:layout_width="150dp"
+                android:src="@drawable/flower" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/myName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_name"
+            android:textSize="25sp"
+            android:layout_margin="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/myStudentId"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profilePicture" />
+
+        <TextView
+            android:id="@+id/myStudentId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_student_id"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/classCode"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myName" />
+
+        <TextView
+            android:id="@+id/classCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/class_code"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/references"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/myStudentId" />
+
+        <TextView
+            android:id="@+id/references"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/references"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            app:layout_constraintBottom_toTopOf="@id/ref1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/classCode" />
+
+        <TextView
+            android:id="@+id/ref1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ref1"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:layout_margin="2dp"
+            app:layout_constraintBottom_toTopOf="@id/ref2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/references" />
+
+        <TextView
+            android:id="@+id/ref2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ref2"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:layout_margin="2dp"
+            app:layout_constraintBottom_toTopOf="@id/ref3"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ref1" />
+
+        <TextView
+            android:id="@+id/ref3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ref3"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:layout_margin="2dp"
+            app:layout_constraintBottom_toTopOf="@id/ref4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ref2" />
+
+        <TextView
+            android:id="@+id/ref4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ref4"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:layout_margin="2dp"
+            app:layout_constraintBottom_toTopOf="@id/ref5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ref3" />
+
+        <TextView
+            android:id="@+id/ref5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ref5"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:layout_margin="2dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ref4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
